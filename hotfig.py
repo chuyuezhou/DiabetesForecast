@@ -12,7 +12,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # Windows中文字体
 plt.rcParams['axes.unicode_minus'] = False    # 正确显示负号
 
 # 读取数据 (请替换为您的数据集路径)
-df = pd.read_csv('data/diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
+df = pd.read_csv('data/diabetes_binary_health_indicators_BRFSS2015.csv')
 
 # 创建与图片匹配的列名映射 (图片中的缩写格式)
 column_mapping = {
